@@ -11,7 +11,7 @@ sched.start()
 
 def callAPI(url):
     req = requests.get(url)
-    print(req.json())
+    print(req.status_code)
 
 
 def schedulingAPI(request):
