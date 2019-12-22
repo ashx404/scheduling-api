@@ -2,9 +2,10 @@
 
 > A Task Scheduling API which can be used to schedule GET requests to a specific URL passed.
 > Parameters:
-> 1)date 'd' which takes date input in the format as specified [dd-mm-yyyy] Example- d=22-12-2019
-> 2)time 't' which takes time input in the 24 hour format as specified [hh:mm](IST) Example- t=20:41
-> 3)url 'url' API route which we want to GET whenever the date-time matches. Example- url=http://localhost:9999/mock
+
+1. Date 'd' which takes date input in the format as specified "dd-mm-yyyy" Example- d=22-12-2019
+2. Time 't' which takes time input in the 24 hour format as specified "hh:mm" Indian Standard Time Example- t=20:41
+3. URL 'url' API route which we want to GET whenever the date-time matches. Example- url=http://localhost:9999/mock
 
 > Routes :
 
